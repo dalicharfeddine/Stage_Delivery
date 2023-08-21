@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 
       routes: {
         "/": (context) {
-          return BottomNavigationBarWithFAB();
+          return Login();
         },
         "/signup": (context) {
           return Home();
